@@ -1,0 +1,5 @@
+/* You can add global styles to this file, and also import other style files */
+@import '@petimg/core/dist/style.css';
+@import '@petimg/dashboard/dist/style.css';
+@import '@petimg/drag-drop/dist/style.css';
+@import '@petimg/progress-bar/dist/style.css';
