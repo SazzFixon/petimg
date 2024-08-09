@@ -1,0 +1,22 @@
+{
+  "name": "@petimg-example/transloadit-markdown-bin",
+  "version": "0.0.0",
+  "type": "module",
+  "dependencies": {
+    "@petimg/core": "workspace:*",
+    "@petimg/dashboard": "workspace:*",
+    "@petimg/drop-target": "workspace:*",
+    "@petimg/image-editor": "workspace:*",
+    "@petimg/remote-sources": "workspace:*",
+    "@petimg/transloadit": "workspace:*",
+    "@petimg/webcam": "workspace:*",
+    "marked": "^4.0.18"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0"
+  },
+  "private": true,
+  "scripts": {
+    "start": "vite"
+  }
+}
