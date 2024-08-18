@@ -1,0 +1,28 @@
+{
+  "name": "@petimg-example/transloadit",
+  "version": "0.0.0",
+  "type": "module",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "vite": "^4.0.0"
+  },
+  "dependencies": {
+    "@petimg/core": "workspace:*",
+    "@petimg/dashboard": "workspace:*",
+    "@petimg/drop-target": "workspace:*",
+    "@petimg/form": "workspace:*",
+    "@petimg/image-editor": "workspace:*",
+    "@petimg/progress-bar": "workspace:*",
+    "@petimg/remote-sources": "workspace:*",
+    "@petimg/transloadit": "workspace:*",
+    "@petimg/webcam": "workspace:*",
+    "express": "^4.16.4",
+    "he": "^1.2.0"
+  },
+  "private": true,
+  "scripts": {
+    "start:server": "node server.js",
+    "start:client": "vite",
+    "start": "npm-run-all --parallel start:server start:client"
+  }
+}
