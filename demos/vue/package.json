@@ -1,0 +1,24 @@
+{
+  "name": "@petimg-example/vue2",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 5050"
+  },
+  "dependencies": {
+    "@petimg/core": "workspace:*",
+    "@petimg/dashboard": "workspace:*",
+    "@petimg/drag-drop": "workspace:*",
+    "@petimg/progress-bar": "workspace:*",
+    "@petimg/transloadit": "workspace:*",
+    "@petimg/vue": "workspace:*",
+    "vue": "^2.6.14"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0",
+    "vite-plugin-vue2": "^2.0.1",
+    "vue-template-compiler": "^2.6.14"
+  }
+}
