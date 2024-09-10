@@ -1,0 +1,23 @@
+{
+  "name": "@petimg-example/vue3",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 5050"
+  },
+  "dependencies": {
+    "@petimg/core": "workspace:*",
+    "@petimg/dashboard": "workspace:*",
+    "@petimg/drag-drop": "workspace:*",
+    "@petimg/progress-bar": "workspace:*",
+    "@petimg/tus": "workspace:*",
+    "@petimg/vue": "workspace:*",
+    "vue": "^3.2.33"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.0",
+    "vite": "^4.0.0"
+  }
+}
